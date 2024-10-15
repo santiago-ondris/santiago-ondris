@@ -10,7 +10,7 @@ Estudiante de primer año de Ingeniería de Software y desarrollador autodidacta
 
 **Habilidades:**
 
-* **Programación:** .NET, C#, HTML, CSS, JavaScript, Python (Nociones básicas)
+* **Programación:** .NET, C#, HTML, CSS, JavaScript, Python
 * **Bases de Datos:** SQL Server
 * **Otras habilidades:** Trabajo en equipo, resolución de problemas, comunicación efectiva.
 
