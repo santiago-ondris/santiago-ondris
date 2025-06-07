@@ -1,27 +1,61 @@
 # Santiago Ondris
 
-Estudiante de Ingeniería de Software y desarrollador autodidacta, con experiencia liderando equipos en el e-commerce de calzado femenino Montella Calzados.  Actualmente me enfoco en .NET, pero continuamente busco expandir mis conocimientos en nuevas tecnologías.
-Principalmente trabajando en proyecto WebApi con .NET y React.
+Desarrollador fullstack, actualmente liderando el desarrollo de **Notizap** (webapp para gestión, análisis y automatización e-commerce) en Montella Calzados. Especializado en **.NET**, **React** y plataformas cloud (Azure).
 
-**Experiencia:**
+---
 
-* **Líder de Equipo - Montella Calzados:**  Creación y gestión completa (online y offline) del e-commerce, desde su concepción hasta el procesamiento de pedidos.  Implementación en TiendaNube, MercadoLibre y WordPress.  
+## 🚀 Proyecto Principal
 
-**Habilidades:**
+### Notizap
+**WebApp de gestión y analítica para e-commerce**  
+Plataforma modular que integra las operaciones de quienes conforman el equipo online de Montella. Cuenta con 10 módulos: 
+- Analisis de stock: tasa de rotacion de productos, grafico de evolucion de ventas de productos, grafico de evolucion de stock de productos
+- Mailing: centralizacion de datos de dos cuentas de Mailchimp
+- Instagram: centralizacion de datos de 3 cuentas de instagram (seguidores, reels, posteos, historias)
+- MercadoLibre: gestor manual de reportes de metricas de ML
+- Gastos: control y registro de gastos del equipo
+- Envios: control y registro de diferentes tipos de envios del e-commerce
+- Cambios y devoluciones: gestion estructurada de cambios y devoluciones, integrado con OCA
+- Publicidad: metricas y campañas de publicidad digital de la empresa
+- Procesador de imagenes: redimensiona y conviert imagenes
+- Mayorista: gestor de clientes y sus pedidos mayoristas
+- Clientes: analisis de los clientes obtenidos del ERP
 
-* **Programación:** .NET, C#, HTML, CSS, JavaScript, ASP.NET
-* **Bases de Datos:** SQL Server
-* **Otras habilidades:** Trabajo en equipo, resolución de problemas, comunicación efectiva.
+**Stack:**  
+- Backend: .NET 8 (C#), PostgreSQL, JWT, Clean Architecture, despliegue en Azure  
+- Frontend: React + Vite, TypeScript, Zustand, shadcn/ui, Tailwind CSS, GSAP, Lenis  
+- Infra: Azure Web Apps, Github Actions, CI/CD automático, Azure static app  
+- Manejo de roles: viewer, admin y superadmin (acceso granular en frontend y backend)  
 
-**Proyectos:**
-Actualmente mis proyectos son para aprendizaje personal, para poder implementar y llevar a cabo mis conocimientos, pensando en un futuro crear una aplicación propia.
+🔗 **Features técnicas destacadas:**  
+- Carga y análisis avanzado de archivos Excel de ERP (rotación, evolución de stock, ventas diarias, top productos)  
+- Visualizaciones custom y comparativas multi-sucursal  
+- Integración directa con APIs de Instagram, Mailchimp, Metricool, OCA, Cloudinary
+- Panel de mailing, gastos, envíos y publicidad con flujos separados por permisos  
+- Descarga automática de reportes globales en PDF  
+- Gestión multi-cuenta (Montella, Alenka, Kids)
 
-* **WebApi de perfumes (.NET):**  Proyecto donde estoy poniendo en practica como implementar un proyecto Web API utilizando .NET - https://github.com/santiago-ondris/webapi-perfumes
-* **Gestor de libros (MVC en .NET):**  Proyecto de aplicación web que utilice para poner en práctica el patron MVC en .NET - https://github.com/santiago-ondris/gestor-libros
+---
 
+## 👨‍💻 Experiencia
 
-**Contacto:**
+- **Líder de E-commerce & IT – Montella Calzados**  
+  Gestión y automatización total del canal online y procesos internos. Implementación de tiendas en TiendaNube, MercadoLibre, WordPress y proyectos a medida (.NET y React). Liderazgo de equipo y manejo de proyectos de integración tecnológica.
 
-* [LinkedIn](www.linkedin.com/in/santiago-ondris-31b846331)
-* santiagonicolas2001@gmail.com
+---
 
+## 🛠️ Herramientas conocidas
+
+- **Backend:** .NET 8, C#, ASP.NET Core, Entity Framework, PostgreSQL  
+- **Frontend:** React, Vite, TypeScript, Zustand, Tailwind, shadcn/ui  
+- **DevOps:** Azure App Service, Github Actions  
+- **Otros:** GSAP, Lenis, Clean Architecture, JWT Auth, integración APIs externas  
+
+---
+
+## 📫 Contacto
+
+- [LinkedIn](https://www.linkedin.com/in/santiago-ondris-31b846331)  
+- santiagonicolas2001@gmail.com
+
+---
