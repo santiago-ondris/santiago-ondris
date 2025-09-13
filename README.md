@@ -4,8 +4,6 @@ Desarrollador fullstack, actualmente trabajando en el desarrollo de **Notizap** 
 
 ---
 
-## 🚀 Proyecto Principal
-
 ### Notizap
 **WebApp de gestión y analítica para e-commerce**  
 Plataforma modular que integra las operaciones de quienes conforman el equipo online de Montella. Cuenta con 10 módulos: 
@@ -14,7 +12,7 @@ Plataforma modular que integra las operaciones de quienes conforman el equipo on
 - Cambios y devoluciones: gestion estructurada de cambios y devoluciones
 - Clientes: analisis de los clientes obtenidos del ERP
 - Reposicion de stock: procesador de archivos xlsx que analiza inventario dado para dar un archivo de reposicion de stock a sucursales
-- Vendedras: resumen de ventas de vendedoras por sucursal, más servicio de cálculo de comisiones
+- Vendedoras: resumen de ventas de vendedoras por sucursal, más servicio de cálculo de comisiones
 
 **Stack:**  
 - Backend: .NET 8 (C#), PostgreSQL, JWT, Clean Architecture, despliegue en Azure  
