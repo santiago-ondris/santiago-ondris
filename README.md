@@ -1,31 +1,28 @@
 # Santiago Ondris
 
-Desarrollador fullstack, actualmente trabajando en el desarrollo de **Notizap** (webapp para gestión, análisis y automatización e-commerce) en Montella Calzados. Especializado en **.NET**, **React** y plataformas cloud (Azure).
+Desarrollador fullstack, actualmente trabajando en el desarrollo de **Notizap**, webapp de herramientas internas, en Montella.
 
 ---
 
 ### Notizap
-**WebApp de gestión y analítica para e-commerce**  
-Plataforma modular que integra las operaciones de quienes conforman el equipo online de Montella. Cuenta con 10 módulos: 
-- Mailing: centralizacion de datos de dos cuentas de Mailchimp
-- Envios: control y registro de diferentes tipos de envios del e-commerce
-- Cambios y devoluciones: gestion estructurada de cambios y devoluciones
-- Clientes: analisis de los clientes obtenidos del ERP
-- Reposicion de stock: procesador de archivos xlsx que analiza inventario dado para dar un archivo de reposicion de stock a sucursales
-- Vendedoras: resumen de ventas de vendedoras por sucursal, más servicio de cálculo de comisiones
+**WebApp de gestión interna**  
+Plataforma modular que integra las operaciones diarias requeridas por el equipo interno: 
+- Cambios y devoluciones: gestion estructurada de cambios y devoluciones online, registro de por donde van los paquetes, pagos de envios, devoluciones de MercadoLibre.
+- Reposicion de stock: procesador de archivos xlsx que analiza inventario dado para dar un archivo de reposicion de stock a sucursales, configuracion especifica por sucursal, por niño/adulto.
+- Vendedoras: resumen de ventas de vendedoras por sucursal, estadísticas, mejores vendedoras por turno, por dia, por articulo; más submodulo de comisiones, calculadora de comisiones configurable y su propio registro.
 
 **Stack:**  
-- Backend: .NET 8 (C#), PostgreSQL, JWT, Clean Architecture, despliegue en Azure  
-- Frontend: React + Vite, TypeScript, Zustand, shadcn/ui, Tailwind CSS, GSAP, Lenis  
+- Backend: .NET 8 (C#), PostgreSQL, JWT, despliegue en Azure  
+- Frontend: React + Vite, TypeScript, shadcn/ui, Tailwind CSS
 - Infra: Azure Web Apps, Github Actions, CI/CD automático, Azure static app  
-- Manejo de roles: viewer, admin, hr y superadmin (acceso granular en frontend y backend)  
+- Manejo de roles: viewer, admin, hr y superadmin 
 
 ---
 
 ## 🛠️ Herramientas conocidas
 
 - **Backend:** .NET 8, C#, ASP.NET Core, Entity Framework, PostgreSQL  
-- **Frontend:** React, Vite, TypeScript, Zustand, Tailwind, shadcn/ui  
+- **Frontend:** React, Vite, TypeScript, Tailwind, shadcn/ui  
 - **DevOps:** Azure App Service, Github Actions  
 - **Otros:** Clean Architecture, JWT Auth, integración APIs externas  
 
