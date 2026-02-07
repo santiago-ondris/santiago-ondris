@@ -1,36 +1,84 @@
 # Santiago Ondris
+Full Stack Developer especializado en React, TypeScript y .NET
 
-Desarrollador fullstack, actualmente trabajando en el desarrollo de **Notizap**, webapp de herramientas internas, en Montella.
+Actualmente desarrollando **Notizap**, sistema de gestión empresarial para Montella Calzados, 
+y construyendo **Wheels House**, plataforma SaaS para coleccionistas de vehículos a escala.
 
 ---
+
+## Proyectos destacados
 
 ### Notizap
-**WebApp de gestión interna**  
-Plataforma modular que integra las operaciones diarias requeridas por el equipo interno: 
-- Cambios y devoluciones: gestion estructurada de cambios y devoluciones online, registro de por donde van los paquetes, pagos de envios, devoluciones de MercadoLibre.
-- Reposicion de stock: procesador de archivos xlsx que analiza inventario dado para dar un archivo de reposicion de stock a sucursales, configuracion especifica por sucursal, por niño/adulto.
-- Vendedoras: resumen de ventas de vendedoras por sucursal, estadísticas, mejores vendedoras por turno, por dia, por articulo; más submodulo de comisiones, calculadora de comisiones configurable y su propio registro.
+**Sistema de gestión empresarial interno** | Montella Calzados  
+Plataforma modular desarrollada end-to-end que centraliza y automatiza operaciones 
+diarias del equipo comercial y administrativo.
 
-**Stack:**  
-- Backend: .NET 8 (C#), PostgreSQL, JWT, despliegue en Azure  
-- Frontend: React + Vite, TypeScript, shadcn/ui, Tailwind CSS
-- Infra: Azure Web Apps, Github Actions, CI/CD automático, Azure static app  
-- Manejo de roles: viewer, admin, hr y superadmin 
+**Módulos principales:**
+- **Cambios y devoluciones:** Sistema completo de gestión con tracking de estados, 
+  registro de envíos, y devoluciones con respectivas estadísticas.
+- **Reposición de stock:** Procesador inteligente de archivos xlsx que analiza 
+  inventario y genera órdenes de reposición según reglas configurables por sucursal 
+  (niño/adulto, 5 sucursales)
+- **Vendedoras:** Dashboard integral con visualización de ventas por vendedora, 
+  sucursal, turno, día y artículo. Incluye calculadora de comisiones configurable 
+  con exportación de archivos y registro histórico
+
+**Stack técnico:**  
+- Backend: .NET (C#), ASP.NET Core, Entity Framework Core, PostgreSQL, JWT Auth
+- Frontend: React, Vite, TypeScript, shadcn/ui, Tailwind CSS
+- Infraestructura: Azure Web Apps + Static Apps + Application Insights, GitHub Actions (CI/CD automático)
+- Arquitectura: Clean Architecture, Dependency Injection
+
+**Rol:** Desarrollador Full Stack | Septiembre 2024 - Presente  
+**Estado:** En producción, uso diario por equipo interno
 
 ---
 
-## 🛠️ Herramientas conocidas
+### Wheels House
+**Plataforma SaaS para coleccionistas** | [wheelshouse.app](https://wheelshouse.app)  
+App especializada donde coleccionistas de vehículos a escala (Hot Wheels, Matchbox, etc.) 
+gestionan, organizan y comparten sus colecciones con la comunidad.
 
-- **Backend:** .NET 8, C#, ASP.NET Core, Entity Framework, PostgreSQL  
-- **Frontend:** React, Vite, TypeScript, Tailwind, shadcn/ui  
-- **DevOps:** Azure App Service, Github Actions  
-- **Otros:** Clean Architecture, JWT Auth, integración APIs externas  
+**Características:**
+- Sistema de gestión de colecciones con upload de imágenes (Cloudinary), búsqueda 
+  avanzada, filtros dinámicos y estadísticas en tiempo real
+- Grupos personalizables para organizar vehículos según criterios propios
+- Perfiles de usuario con wishlists y sistema de autenticación
+- WheelWord: juego diario interactivo (estilo Wordle)
+- Hall of Fame y featured cars con rotación diaria
+
+**Stack técnico:**  
+- Frontend: React, TypeScript, Vite, Tailwind CSS
+- Backend: NestJS (Node.js), PostgreSQL, Drizzle ORM, JWT
+- Infraestructura: Vercel (frontend), Railway (backend + DB), Turborepo (monorepo)
+- Servicios: Cloudinary (media + moderación), Resend (emails transaccionales)
+
+**Estado:** Versión 1.0 desplegada, en fase de beta testing
 
 ---
 
-## 📫 Contacto
+## Stack tecnológico
 
-- [LinkedIn](https://www.linkedin.com/in/santiago-ondris-31b846331)  
-- santiagonicolas2001@gmail.com
+**Backend:**  
+.NET, C#, ASP.NET Core, Entity Framework Core, NestJS (Node.js), PostgreSQL, 
+JWT Authentication, Serilog, Drizzle ORM
+
+**Frontend:**  
+React, TypeScript, JavaScript, Vite, Tailwind CSS
+
+**DevOps & Cloud:**  
+Azure (Web Apps, Static Apps, Application Insights), Vercel, Railway, GitHub Actions (CI/CD), 
+Turborepo (monorepo), Git
+
+**Servicios externos:**  
+Cloudinary, Resend
+
+---
+
+## Contacto
+
+- **LinkedIn:** [santiago-ondris](https://www.linkedin.com/in/santiago-ondris)  
+- **Email:** santiagonicolas2001@gmail.com
+- **Ubicación:** Córdoba Capital, Argentina
 
 ---
