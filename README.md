@@ -22,6 +22,8 @@ diarias del equipo comercial y administrativo.
 - **Vendedoras:** Dashboard integral con visualización de ventas por vendedora, 
   sucursal, turno, día y artículo. Incluye calculadora de comisiones configurable 
   con exportación de archivos y registro histórico
+- **Meta Catalog:** Gestión de conjuntos de productos utilizados en catálogos de Meta para
+  anuncios. Permite poder cargar productos con diseños propios. Integrado con la API de Meta.
 
 **Stack técnico:**  
 - Backend: .NET (C#), ASP.NET Core, Entity Framework Core, PostgreSQL, JWT Auth
