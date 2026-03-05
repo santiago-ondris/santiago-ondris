@@ -1,86 +1,72 @@
 # Santiago Ondris
-Full Stack Developer especializado en React, TypeScript y .NET
-
-Actualmente desarrollando **Notizap**, sistema de gestión empresarial para Montella Calzados, 
-y construyendo **Wheels House**, plataforma SaaS para coleccionistas de vehículos a escala.
+**Full Stack Developer** building production and end-to-end systems with .NET, React, and Azure.  
+Currently developing an enterprise management platform used daily in production, and a SaaS app built solo from scratch as a main side project.
 
 ---
 
-## Proyectos destacados
+## Featured Projects
 
 ### Notizap
-**Sistema de gestión empresarial interno** | Montella Calzados  
-Plataforma modular desarrollada end-to-end que centraliza y automatiza operaciones 
-diarias del equipo comercial y administrativo.
+**Enterprise Management System** | Montella  
+End-to-end modular platform that centralizes and automates daily operations for the sales, administrative, human resources and e-commerce teams. Reduced daily stock processing time from 2 hours to 5 minutes and the sales commission calculation time from 1 week to just 1 day.
 
-**Módulos principales:**
-- **Cambios y devoluciones:** Sistema completo de gestión con tracking de estados, 
-  registro de envíos, y devoluciones con respectivas estadísticas.
-- **Reposición de stock:** Procesador inteligente de archivos xlsx que analiza 
-  inventario y genera órdenes de reposición según reglas configurables por sucursal 
-  (niño/adulto, 5 sucursales)
-- **Vendedoras:** Dashboard integral con visualización de ventas por vendedora, 
-  sucursal, turno, día y artículo. Incluye calculadora de comisiones configurable 
-  con exportación de archivos y registro histórico
-- **Meta Catalog:** Gestión de conjuntos de productos utilizados en catálogos de Meta para
-  anuncios. Permite poder cargar productos con diseños propios. Integrado con la API de Meta.
+**Key modules:**
+- **Returns & Exchanges:** Full lifecycle management with status tracking, shipment logging, and statistics dashboard
+- **Stock Replenishment:** Intelligent xlsx processor that analyzes inventory and generates replenishment orders based on configurable rules per branch (5 locations, adult/kids segmentation)
+- **Sales Dashboard:** Comprehensive reporting by sales rep, branch, shift, day, and SKU — includes a configurable commission calculator with export and historical tracking
+- **Meta Catalog:** Product set management for Meta ad catalogs with custom design uploads, integrated with the Meta API
 
-**Stack técnico:**  
+**Tech stack:**
 - Backend: .NET (C#), ASP.NET Core, Entity Framework Core, PostgreSQL, JWT Auth
-- Frontend: React, Vite, TypeScript, shadcn/ui, Tailwind CSS
-- Infraestructura: Azure Web Apps + Static Apps + Application Insights, GitHub Actions (CI/CD automático)
-- Arquitectura: Clean Architecture, Dependency Injection
+- Frontend: React, TypeScript, Vite, shadcn/ui, Tailwind CSS
+- Infrastructure: Azure Web Apps + Static Apps + Application Insights, GitHub Actions (CI/CD)
+- Architecture: Clean Architecture, Dependency Injection
 
-**Rol:** Desarrollador Full Stack | Septiembre 2024 - Presente  
-**Estado:** En producción, uso diario por equipo interno
+**Role:** Full Stack Developer | October 2024 – Present  
+**Status:** Live in production, daily use by internal team
 
 ---
 
 ### Wheels House
-**Plataforma SaaS para coleccionistas** | [wheelshouse.app](https://wheelshouse.app)  
-App especializada donde coleccionistas de vehículos a escala (Hot Wheels, Matchbox, etc.) 
-gestionan, organizan y comparten sus colecciones con la comunidad.
+**SaaS Platform for Scale Vehicle Collectors** | Side Project | [wheelshouse.app](https://wheelshouse.app)  
+Built from scratch — a community platform where collectors of scale vehicles (Hot Wheels, Matchbox, etc.) manage, organize, and share their collections. Currently in beta.
 
-**Características:**
-- Sistema de gestión de colecciones con upload de imágenes (Cloudinary), búsqueda 
-  avanzada, filtros dinámicos y estadísticas en tiempo real
-- Grupos personalizables para organizar vehículos según criterios propios
-- Perfiles de usuario con wishlists y sistema de autenticación
-- WheelWord: juego diario interactivo (estilo Wordle)
-- Hall of Fame y featured cars con rotación diaria
+**Features:**
+- Collection management with image upload (Cloudinary), advanced search, dynamic filters, and real-time statistics
+- Customizable groups to organize vehicles by user-defined criteria
+- Custom Twitter-style feed with polling
+- User profiles with wishlists and full authentication system
+- WheelWord: daily interactive word game (Wordle-style)
+- Hall of Fame and featured cars with daily rotation
 
-**Stack técnico:**  
+**Tech stack:**
 - Frontend: React, TypeScript, Vite, Tailwind CSS
 - Backend: NestJS (Node.js), PostgreSQL, Drizzle ORM, JWT
-- Infraestructura: Vercel (frontend), Railway (backend + DB), Turborepo (monorepo)
-- Servicios: Cloudinary (media + moderación), Resend (emails transaccionales)
+- Infrastructure: Vercel (frontend), Railway (backend + DB), Turborepo (monorepo)
+- Services: Cloudinary (media + moderation), Resend (transactional emails)
 
-**Estado:** Versión 1.0 desplegada, en fase de beta testing
+**Status:** v1.0 deployed, beta testing phase
 
 ---
 
-## Stack tecnológico
+## Tech Stack
 
 **Backend:**  
-.NET, C#, ASP.NET Core, Entity Framework Core, NestJS (Node.js), PostgreSQL, 
-JWT Authentication, Serilog, Drizzle ORM
+.NET · C# · ASP.NET Core · Entity Framework Core · NestJS (Node.js) · PostgreSQL · JWT Auth · Serilog · Drizzle ORM
 
 **Frontend:**  
-React, TypeScript, JavaScript, Vite, Tailwind CSS
+React · TypeScript · JavaScript · Vite · Tailwind CSS
 
 **DevOps & Cloud:**  
-Azure (Web Apps, Static Apps, Application Insights), Vercel, Railway, GitHub Actions (CI/CD), 
-Turborepo (monorepo), Git
+Azure (Web Apps, Static Apps, Application Insights, AI Foundry, Key Vault, Azure Functions) · Vercel · Railway · GitHub Actions (CI/CD) · Turborepo · Git
 
-**Servicios externos:**  
-Cloudinary, Resend
+**Tools & APIs:**  
+Postman · REST APIs · Cloudinary · Resend · Meta API
 
 ---
 
-## Contacto
+## Contact
 
-- **LinkedIn:** [santiago-ondris](https://www.linkedin.com/in/santiago-ondris)  
+- **LinkedIn:** [santiago-ondris](https://www.linkedin.com/in/santiago-ondris)
 - **Email:** santiagonicolas2001@gmail.com
-- **Ubicación:** Córdoba Capital, Argentina
-
----
+- **Location:** Córdoba, Argentina
