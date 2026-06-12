@@ -1,69 +1,30 @@
 # Santiago Ondris
-**Full Stack Developer** building production and end-to-end systems with .NET, React, and Azure.  
-Currently developing an enterprise management platform used daily in production, and a SaaS app built solo from scratch as a main side project.
+**Full Stack Developer** focused on turning complex business requirements into high-impact software. Experientially proven to build systems that automate processes, optimize logistics, and drastically reduce operational times.  From comprehensive modular apps to secure, offline-capable PWA access controls, I design and deploy reliable software architectures using modern tech stacks.  ⚙️ Ecosystems: Node.js | Go | .NET React & TypeScript | Cloud Infrastructure  
 
 ---
 
-## Featured Projects
+## 🛠️ Featured Projects
 
-### Notizap
-**Enterprise Management System** | Montella  
-End-to-end modular platform that centralizes and automates daily operations for the sales, administrative, human resources and e-commerce teams. Reduced daily stock processing time from 2 hours to 5 minutes and the sales commission calculation time from 1 week to just 1 day.
+### 👞 [Notizap]
+> **Modular system for Retail** | Enterprise management system that centralizes and automates daily operations for sales, inventory, and HR teams.
+* **Impact:** Reduced daily stock processing time from 2 hours to 5 minutes and sales commission calculation time from 1 week to just 1 day.
+* **Solution:** Core modules for returns & exchanges lifecycle tracking, intelligent branch replenishment via custom XLSX processing, analytics dashboard with export features, and seamless Meta API ad catalog integration.
+* **Stack:** `.NET (C#)` • `ASP.NET Core` • `EF Core` • `PostgreSQL` • `React` • `TypeScript` • `Azure`
 
-**Key modules:**
-- **Returns & Exchanges:** Full lifecycle management with status tracking, shipment logging, and statistics dashboard
-- **Stock Replenishment:** Intelligent xlsx processor that analyzes inventory and generates replenishment orders based on configurable rules per branch (5 locations, adult/kids segmentation)
-- **Sales Dashboard:** Comprehensive reporting by sales rep, branch, shift, day, and SKU — includes a configurable commission calculator with export and historical tracking
-- **Meta Catalog:** Product set management for Meta ad catalogs with custom design uploads, integrated with the Meta API
+### 🏎️ [Wheels House](https://wheelshouse.app)
+> **Social Platform for Collectors** | Community platform and collection manager for scale vehicle enthusiasts (Hot Wheels, Matchbox, etc.).
+* **Solution:** Advanced collection management with dynamic filtering, secure media uploads with moderation, a custom interactive social feed with polling, user wishlists, and a daily Wordle-style interactive minigame (WheelWord).
+* **Stack:** `NestJS (Node.js)` • `PostgreSQL` • `Drizzle ORM` • `React` • `TypeScript` • `Turborepo` • `Cloudinary` • `Railway`
 
-**Tech stack:**
-- Backend: .NET (C#), ASP.NET Core, Entity Framework Core, PostgreSQL, JWT Auth
-- Frontend: React, TypeScript, Vite, shadcn/ui, Tailwind CSS
-- Infrastructure: Azure Web Apps + Static Apps + Application Insights, GitHub Actions (CI/CD)
-- Architecture: Clean Architecture, Dependency Injection
+### 🏥 [Farmami]
+> **Pharmaceutical Inventory System** | High-criticality compliance and internal stock-control application deployed for a regional healthcare distributor.
+* **Solution:** Real-time stock matrix calculation featuring an audited fallback mechanism for negative balances. Includes comprehensive customer/supplier evaluation modules, automated strict audit logs, and dynamic sales invoice/voucher PDF generation using Puppeteer.
+* **Stack:** `Node.js` • `Express` • `Prisma ORM` • `PostgreSQL` • `React (Vite)` • `Tailwind CSS v4` • `Puppeteer` • `Railway`
 
-**Role:** Full Stack Developer | October 2024 – Present  
-**Status:** Live in production, daily use by internal team
-
----
-
-### Wheels House
-**SaaS Platform for Scale Vehicle Collectors** | Side Project | [wheelshouse.app](https://wheelshouse.app)  
-Built from scratch — a community platform where collectors of scale vehicles (Hot Wheels, Matchbox, etc.) manage, organize, and share their collections. Currently in beta.
-
-**Features:**
-- Collection management with image upload (Cloudinary), advanced search, dynamic filters, and real-time statistics
-- Customizable groups to organize vehicles by user-defined criteria
-- Custom Twitter-style feed with polling
-- User profiles with wishlists and full authentication system
-- WheelWord: daily interactive word game (Wordle-style)
-- Hall of Fame and featured cars with daily rotation
-
-**Tech stack:**
-- Frontend: React, TypeScript, Vite, Tailwind CSS
-- Backend: NestJS (Node.js), PostgreSQL, Drizzle ORM, JWT
-- Infrastructure: Vercel (frontend), Railway (backend + DB), Turborepo (monorepo)
-- Services: Cloudinary (media + moderation), Resend (transactional emails)
-
-**Status:** v1.0 deployed, beta testing phase
-
----
-
-## Tech Stack
-
-**Backend:**  
-.NET · C# · ASP.NET Core · Entity Framework Core · NestJS (Node.js) · PostgreSQL · JWT Auth · Serilog · Drizzle ORM
-
-**Frontend:**  
-React · TypeScript · JavaScript · Vite · Tailwind CSS
-
-**DevOps & Cloud:**  
-Azure (Web Apps, Static Apps, Application Insights, AI Foundry, Key Vault, Azure Functions) · Vercel · Railway · GitHub Actions (CI/CD) · Turborepo · Git
-
-**Tools & APIs:**  
-Postman · REST APIs · Cloudinary · Resend · Meta API
-
----
+### ⚽ [Prensapp]
+> **Press Accreditation PWA** | Digital credential and access control ecosystem built for sports organizations to streamline matchday logistics.
+* **Solution:** Secure approval pipeline generating dynamic, rotation-based QR entry codes signed via JWT tokens. Engineered with an offline-first architecture (Service Workers/IndexedDB) allowing gatekeepers to reliably scan, log data, and perform visual identity validation on-site.
+* **Stack:** `Go (Chi)` • `sqlc` • `PostgreSQL (Neon)` • `React` • `TypeScript` • `TanStack Router/Query` • `PWA` • `Cloudflare R2`
 
 ## Contact
 
